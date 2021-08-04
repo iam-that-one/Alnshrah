@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		179E09CEAC3B3E6C66912DF6 /* Pods_Bloatt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E449A59E9DBBF7959684F85 /* Pods_Bloatt.framework */; };
+		B8DD284A26B9A82C00026B8F /* BloattApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD284926B9A82C00026B8F /* BloattApp.swift */; };
+		B8DD284C26B9A82C00026B8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD284B26B9A82C00026B8F /* ContentView.swift */; };
+		B8DD284E26B9A83700026B8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DD284D26B9A83700026B8F /* Assets.xcassets */; };
+		B8DD285126B9A83700026B8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DD285026B9A83700026B8F /* Preview Assets.xcassets */; };
+		B8DD286326B9AB5700026B8F /* Damen7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD285C26B9AB5600026B8F /* Damen7View.swift */; };
+		B8DD286426B9AB5700026B8F /* CardsDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD285D26B9AB5600026B8F /* CardsDesign.swift */; };
+		B8DD286526B9AB5700026B8F /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD285E26B9AB5600026B8F /* BackgroundView.swift */; };
+		B8DD286726B9AB5700026B8F /* BloatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD286026B9AB5700026B8F /* BloatView.swift */; };
+		B8DD286926B9AB5700026B8F /* BentSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD286226B9AB5700026B8F /* BentSView.swift */; };
+		B8DD286C26B9AD0600026B8F /* CollectionViewPagingLayout in Frameworks */ = {isa = PBXBuildFile; productRef = B8DD286B26B9AD0600026B8F /* CollectionViewPagingLayout */; };
+		B8DD286E26B9AD9200026B8F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD286D26B9AD9200026B8F /* ViewModel.swift */; };
+		B8DD287026B9ADB800026B8F /* ModalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD286F26B9ADB800026B8F /* ModalType.swift */; };
+		B8DD287226B9ADD100026B8F /* AdsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD287126B9ADD100026B8F /* AdsView.swift */; };
+		B8DD287826B9AEC000026B8F /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = B8DD287426B9AEBF00026B8F /* OFL.txt */; };
+		B8DD287926B9AEC000026B8F /* Qahiri-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8DD287526B9AEBF00026B8F /* Qahiri-Regular.ttf */; };
+		B8DD287A26B9AEC000026B8F /* ReemKufi-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8DD287626B9AEC000026B8F /* ReemKufi-VariableFont_wght.ttf */; };
+		B8DD287B26B9AEC000026B8F /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = B8DD287726B9AEC000026B8F /* README.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6162DA2AD276FA767DDB0133 /* Pods-Bloatt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bloatt.release.xcconfig"; path = "Target Support Files/Pods-Bloatt/Pods-Bloatt.release.xcconfig"; sourceTree = "<group>"; };
+		6E449A59E9DBBF7959684F85 /* Pods_Bloatt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bloatt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		747339F416EE35411BE5A4BA /* Pods-Bloatt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bloatt.debug.xcconfig"; path = "Target Support Files/Pods-Bloatt/Pods-Bloatt.debug.xcconfig"; sourceTree = "<group>"; };
+		B8DD284626B9A82C00026B8F /* النشرة.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "النشرة.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8DD284926B9A82C00026B8F /* BloattApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloattApp.swift; sourceTree = "<group>"; };
+		B8DD284B26B9A82C00026B8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B8DD284D26B9A83700026B8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8DD285026B9A83700026B8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B8DD285226B9A83700026B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8DD285C26B9AB5600026B8F /* Damen7View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Damen7View.swift; sourceTree = "<group>"; };
+		B8DD285D26B9AB5600026B8F /* CardsDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsDesign.swift; sourceTree = "<group>"; };
+		B8DD285E26B9AB5600026B8F /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		B8DD286026B9AB5700026B8F /* BloatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BloatView.swift; sourceTree = "<group>"; };
+		B8DD286226B9AB5700026B8F /* BentSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BentSView.swift; sourceTree = "<group>"; };
+		B8DD286D26B9AD9200026B8F /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		B8DD286F26B9ADB800026B8F /* ModalType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalType.swift; sourceTree = "<group>"; };
+		B8DD287126B9ADD100026B8F /* AdsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdsView.swift; sourceTree = "<group>"; };
+		B8DD287426B9AEBF00026B8F /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		B8DD287526B9AEBF00026B8F /* Qahiri-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qahiri-Regular.ttf"; sourceTree = "<group>"; };
+		B8DD287626B9AEC000026B8F /* ReemKufi-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ReemKufi-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		B8DD287726B9AEC000026B8F /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8DD284326B9A82C00026B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179E09CEAC3B3E6C66912DF6 /* Pods_Bloatt.framework in Frameworks */,
+				B8DD286C26B9AD0600026B8F /* CollectionViewPagingLayout in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60ED2020E63AA298AE08B997 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				747339F416EE35411BE5A4BA /* Pods-Bloatt.debug.xcconfig */,
+				6162DA2AD276FA767DDB0133 /* Pods-Bloatt.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B8DD283D26B9A82C00026B8F = {
+			isa = PBXGroup;
+			children = (
+				B8DD284826B9A82C00026B8F /* Bloatt */,
+				B8DD284726B9A82C00026B8F /* Products */,
+				60ED2020E63AA298AE08B997 /* Pods */,
+				EF3F1C37975D1640A6969E9D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B8DD284726B9A82C00026B8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8DD284626B9A82C00026B8F /* النشرة.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8DD284826B9A82C00026B8F /* Bloatt */ = {
+			isa = PBXGroup;
+			children = (
+				B8DD284926B9A82C00026B8F /* BloattApp.swift */,
+				B8DD284B26B9A82C00026B8F /* ContentView.swift */,
+				B8DD286F26B9ADB800026B8F /* ModalType.swift */,
+				B8DD285226B9A83700026B8F /* Info.plist */,
+				B8DD287F26B9AF6800026B8F /* Model */,
+				B8DD287E26B9AF2800026B8F /* Designs */,
+				B8DD287D26B9AEFC00026B8F /* Games */,
+				B8DD287C26B9AEE500026B8F /* Ads */,
+				B8DD287326B9AEA600026B8F /* Fonts */,
+				B8DD284D26B9A83700026B8F /* Assets.xcassets */,
+				B8DD284F26B9A83700026B8F /* Preview Content */,
+			);
+			path = Bloatt;
+			sourceTree = "<group>";
+		};
+		B8DD284F26B9A83700026B8F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B8DD285026B9A83700026B8F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B8DD287326B9AEA600026B8F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B8DD287426B9AEBF00026B8F /* OFL.txt */,
+				B8DD287526B9AEBF00026B8F /* Qahiri-Regular.ttf */,
+				B8DD287726B9AEC000026B8F /* README.txt */,
+				B8DD287626B9AEC000026B8F /* ReemKufi-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B8DD287C26B9AEE500026B8F /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				B8DD287126B9ADD100026B8F /* AdsView.swift */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		B8DD287D26B9AEFC00026B8F /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				B8DD286026B9AB5700026B8F /* BloatView.swift */,
+				B8DD285C26B9AB5600026B8F /* Damen7View.swift */,
+				B8DD286226B9AB5700026B8F /* BentSView.swift */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		B8DD287E26B9AF2800026B8F /* Designs */ = {
+			isa = PBXGroup;
+			children = (
+				B8DD285E26B9AB5600026B8F /* BackgroundView.swift */,
+				B8DD285D26B9AB5600026B8F /* CardsDesign.swift */,
+			);
+			path = Designs;
+			sourceTree = "<group>";
+		};
+		B8DD287F26B9AF6800026B8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B8DD286D26B9AD9200026B8F /* ViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF3F1C37975D1640A6969E9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E449A59E9DBBF7959684F85 /* Pods_Bloatt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8DD284526B9A82C00026B8F /* النشرة */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8DD285526B9A83700026B8F /* Build configuration list for PBXNativeTarget "النشرة" */;
+			buildPhases = (
+				CE29FA77AB1E2668026B6DC0 /* [CP] Check Pods Manifest.lock */,
+				B8DD284226B9A82C00026B8F /* Sources */,
+				B8DD284326B9A82C00026B8F /* Frameworks */,
+				B8DD284426B9A82C00026B8F /* Resources */,
+				D35423F909C91D876BABB0D5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "النشرة";
+			packageProductDependencies = (
+				B8DD286B26B9AD0600026B8F /* CollectionViewPagingLayout */,
+			);
+			productName = Bloatt;
+			productReference = B8DD284626B9A82C00026B8F /* النشرة.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8DD283E26B9A82C00026B8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B8DD284526B9A82C00026B8F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = B8DD284126B9A82C00026B8F /* Build configuration list for PBXProject "النشرة" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8DD283D26B9A82C00026B8F;
+			packageReferences = (
+				B8DD286A26B9AD0600026B8F /* XCRemoteSwiftPackageReference "CollectionViewPagingLayout" */,
+			);
+			productRefGroup = B8DD284726B9A82C00026B8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8DD284526B9A82C00026B8F /* النشرة */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8DD284426B9A82C00026B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8DD285126B9A83700026B8F /* Preview Assets.xcassets in Resources */,
+				B8DD284E26B9A83700026B8F /* Assets.xcassets in Resources */,
+				B8DD287926B9AEC000026B8F /* Qahiri-Regular.ttf in Resources */,
+				B8DD287A26B9AEC000026B8F /* ReemKufi-VariableFont_wght.ttf in Resources */,
+				B8DD287826B9AEC000026B8F /* OFL.txt in Resources */,
+				B8DD287B26B9AEC000026B8F /* README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE29FA77AB1E2668026B6DC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bloatt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D35423F909C91D876BABB0D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bloatt/Pods-Bloatt-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bloatt/Pods-Bloatt-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bloatt/Pods-Bloatt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8DD284226B9A82C00026B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8DD286E26B9AD9200026B8F /* ViewModel.swift in Sources */,
+				B8DD287226B9ADD100026B8F /* AdsView.swift in Sources */,
+				B8DD286526B9AB5700026B8F /* BackgroundView.swift in Sources */,
+				B8DD284C26B9A82C00026B8F /* ContentView.swift in Sources */,
+				B8DD286326B9AB5700026B8F /* Damen7View.swift in Sources */,
+				B8DD287026B9ADB800026B8F /* ModalType.swift in Sources */,
+				B8DD284A26B9A82C00026B8F /* BloattApp.swift in Sources */,
+				B8DD286426B9AB5700026B8F /* CardsDesign.swift in Sources */,
+				B8DD286926B9AB5700026B8F /* BentSView.swift in Sources */,
+				B8DD286726B9AB5700026B8F /* BloatView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B8DD285326B9A83700026B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8DD285426B9A83700026B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8DD285626B9A83700026B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 747339F416EE35411BE5A4BA /* Pods-Bloatt.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Bloatt/Preview Content\"";
+				DEVELOPMENT_TEAM = H7HSH28V5D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Bloatt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-01.Bloatt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B8DD285726B9A83700026B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6162DA2AD276FA767DDB0133 /* Pods-Bloatt.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Bloatt/Preview Content\"";
+				DEVELOPMENT_TEAM = H7HSH28V5D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Bloatt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-01.Bloatt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8DD284126B9A82C00026B8F /* Build configuration list for PBXProject "النشرة" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8DD285326B9A83700026B8F /* Debug */,
+				B8DD285426B9A83700026B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8DD285526B9A83700026B8F /* Build configuration list for PBXNativeTarget "النشرة" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8DD285626B9A83700026B8F /* Debug */,
+				B8DD285726B9A83700026B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B8DD286A26B9AD0600026B8F /* XCRemoteSwiftPackageReference "CollectionViewPagingLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/amirdew/CollectionViewPagingLayout.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B8DD286B26B9AD0600026B8F /* CollectionViewPagingLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8DD286A26B9AD0600026B8F /* XCRemoteSwiftPackageReference "CollectionViewPagingLayout" */;
+			productName = CollectionViewPagingLayout;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B8DD283E26B9A82C00026B8F /* Project object */;
+}
