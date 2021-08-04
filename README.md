@@ -1,5 +1,5 @@
 # Alnshrah
-# Comming soon
+
 # This repository contains:
 # Combine - conditional sheet presentation - MVVM - Custom ScrollView - GoogleMobileAds
 # Add your Baner info in Plist
